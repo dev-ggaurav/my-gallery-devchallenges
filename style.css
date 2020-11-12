@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Montserrat,sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 3rem;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    padding: 0 2rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.avatar{
+    width:15rem;
+    border-radius: 6rem;
+    margin: 2rem;
+}
+
+.name{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #4E5150;
+}
+
+.city{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #A9A9A9;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.block{
+    width: 100px;
+    margin: 0 1rem;
+    background-color: #E5E5E5;
+    padding: 1rem;
+    border-radius: 1.6rem;
+}
+
+.block p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #4E5150;
+}
+
+.block span{
+    font-size: 1.4rem;
+}
+
+.img-gallery{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.2rem;
+}
+
+.img-1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.img-2{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.img-3{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.img-4{
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.img-5,.img-6{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.social i{
+    font-size: 2.8rem;
+    color: #3457D5;
+}
+
+.copy p{
+    font-size: 2.1rem;
+    margin: 2rem 0;
+}
